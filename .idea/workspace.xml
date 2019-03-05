@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1cc3b87-c113-4cc0-9aa7-896322b1915a" name="Default" comment="" />
+    <list default="true" id="d1cc3b87-c113-4cc0-9aa7-896322b1915a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_header.sass" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_header.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_header.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/_header.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-609">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="406">
+              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -56,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="84">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -118,9 +122,9 @@
         <option value="$PROJECT_DIR$/templates/head.html" />
         <option value="$PROJECT_DIR$/sass/style.sass" />
         <option value="$PROJECT_DIR$/templates/header.html" />
-        <option value="$PROJECT_DIR$/sass/_header.sass" />
         <option value="$PROJECT_DIR$/sass/_index.sass" />
         <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/sass/_header.sass" />
       </list>
     </option>
   </component>
@@ -171,6 +175,11 @@
             <path>
               <item name="newslast" type="b2602c69:ProjectViewProjectNode" />
               <item name="newslast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newslast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newslast" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,25 +255,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551775571574</updated>
-      <workItem from="1551775573301" duration="18157000" />
+      <workItem from="1551775573301" duration="19396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18157000" />
+    <option name="totallyTimeSpent" value="19396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2064" height="1128" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32929292" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32929292" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32929292" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32929292" />
       <window_info anchor="right" id="Remote Host" />
       <window_info id="Gulp" sideWeight="0.50150603" side_tool="true" visible="true" weight="0.11377245" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.11377245" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.11377245" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929292" />
@@ -371,10 +381,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_header.sass">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-609">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="-497" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -385,15 +400,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/sass/_header.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-497" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="406">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
         </state>
       </provider>
     </entry>

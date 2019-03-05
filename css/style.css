@@ -72,6 +72,7 @@ form {
     outline: none;
     min-width: 300px;
     width: 60%;
+    font-size: 18px;
     padding: 0 16px;
     box-sizing: border-box;
     height: 40px; }

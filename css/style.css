@@ -1,0 +1,109 @@
+a {
+  text-decoration: none; }
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh; }
+
+.wrapper {
+  display: grid;
+  height: 100vh;
+  overflow-y: hidden; }
+
+.right {
+  text-align: right;
+  float: right !important; }
+
+.left {
+  float: left !important; }
+
+.content {
+  padding-top: 16px;
+  max-width: 1176px;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0 auto;
+  display: grid;
+  grid-row: 2;
+  grid-gap: 16px 32px;
+  overflow-y: scroll;
+  padding-right: 17px;
+  box-sizing: content-box; }
+
+.frame, .itemnews {
+  border: 1px solid gray;
+  border-radius: 8px; }
+
+.itemnews {
+  padding: 16px;
+  width: 500px;
+  min-height: 200px;
+  grid-column: 1/8; }
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; }
+
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000; }
+
+header {
+  background-color: #fff; }
+  header nav {
+    font-size: 18px;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    line-height: 50px;
+    white-space: nowrap;
+    box-shadow: 0 4px 2px -2px gray; }
+
+.material-icons {
+  vertical-align: middle;
+  margin: 0 1.6rem; }
+
+form {
+  border-right: 1px solid gray; }
+  form input {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0 1px;
+    outline: none;
+    min-width: 300px;
+    width: 60%;
+    padding: 0 16px;
+    box-sizing: border-box;
+    height: 40px; }
+
+.leftbar {
+  position: fixed;
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 17rem; }
+  .leftbar .listbar {
+    margin-top: 1.6rem;
+    padding-bottom: 2.4rem; }
+    .leftbar .listbar .itembar {
+      height: 40px;
+      line-height: 40px;
+      color: gray;
+      vertical-align: middle; }
+    .leftbar .listbar .itembar:hover {
+      cursor: pointer;
+      color: #1a73e8; }
+    .leftbar .listbar .current {
+      font-weight: 500;
+      background: rgba(66, 133, 244, 0.149);
+      -webkit-border-radius: 0 50px 50px 0;
+      border-radius: 0 50px 50px 0;
+      color: #1a73e8; }
+
+.hr {
+  border-bottom: 1px solid #e0e0e0;
+  /* width: 23.2rem; */
+  margin: 1.2rem 0;
+  margin-left: 1.6rem; }
+
+/*# sourceMappingURL=style.css.map */

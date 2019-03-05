@@ -1,0 +1,46 @@
+a
+  text-decoration: none
+body
+  padding: 0
+  margin: 0
+  min-height: 100vh
+.wrapper
+  display: grid
+  height: 100vh
+  overflow-y: hidden
+
+.right
+  text-align: right
+  float: right !important
+
+.left
+  float: left !important
+.content
+  padding-top: 16px
+  max-width: 1176px
+  grid-template-columns: repeat(12,1fr)
+  margin: 0 auto
+  display: grid
+  grid-row: 2
+  grid-gap: 16px 32px
+  overflow-y: scroll
+  padding-right: 17px
+  box-sizing: content-box
+.frame
+  border: 1px solid gray
+  border-radius: 8px
+.itemnews
+  @extend .frame
+  padding: 16px
+  width: 500px
+  min-height: 200px
+  grid-column: 1/8
+
+::-webkit-scrollbar
+  width: 0px /* remove scrollbar space */
+  background: transparent  /* optional: just make scrollbar invisible */
+
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb
+  background: #FF0000
+

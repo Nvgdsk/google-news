@@ -48,7 +48,7 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #FF0000; }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1366px) {
   .content {
     margin-left: 280px; } }
 header {

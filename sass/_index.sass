@@ -26,7 +26,7 @@ body
   grid-row: 2
   grid-gap: 10px 10px
   overflow-y: scroll
-  padding-right: 17px
+  padding: 10px
   box-sizing: content-box
   h4
     padding: 0
@@ -35,7 +35,7 @@ body
   border: 1px solid #e0e0e0
   border-radius: 8px
 .main-news
-  grid-column: 1/10
+  grid-column: 1/8
   display: grid
   grid-gap: 10px 10px
   color: $text-color-news
@@ -67,7 +67,7 @@ body
   padding: 10px
   text-align: -webkit-center
   color: $text-color-news
-  grid-column: 10/12
+  grid-column: 8/12
 .tag-news
   display: flex
   flex-direction: column
@@ -92,6 +92,16 @@ body
 /* optional: show position indicator in red */
 ::-webkit-scrollbar-thumb
   background: #FF0000
-@media screen and (max-width: 1370px)
+@media screen and (max-width: 1735px)
   .content
     margin-left: 280px
+@media screen and (max-width: 800px)
+  .content
+    margin: 0 auto
+  .main-news
+    grid-column: 1/13
+    margin: 0 auto
+  .in-news
+    display: none
+  .leftbar
+    display: none

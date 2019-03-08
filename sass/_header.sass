@@ -35,12 +35,20 @@ form
 
     box-sizing: border-box
     height: ($height-header - 10px)
+.hitem
+  cursor: pointer
 .leftbar
+  display: block
+  left: 0
   position: fixed
   min-height: 100%
   display: grid
+  background-color: #fff
   grid-template-columns: repeat(1,1fr)
+  margin-top: 10px
   width: 17rem
+  -webkit-transition: left 1s
+  transition: left 1s
   .listbar
 
     margin-top: 1.6rem

@@ -112,7 +112,8 @@ body {
   .leftbar {
     display: none; } }
 header {
-  background-color: #fff; }
+  background-color: #fff;
+  z-index: 100; }
   header nav {
     font-size: 18px;
     padding: 8px;
